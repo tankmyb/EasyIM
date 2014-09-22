@@ -1,0 +1,6 @@
+package com.IMBalancer.b1;  
+option java_package = "com.IMBalancer.b1";  
+option java_outer_classname = "Req";  
+message ReqData {  
+  required string data= 1;  
+}  

@@ -1,0 +1,7 @@
+package com.IMBalancer.b1;  
+option java_package = "com.IMBalancer.b1";  
+option java_outer_classname = "FirstExample";  
+message ReqBean {  
+  required string name= 1;  
+ optional bytes requestData = 2; //ÇëÇóÊý¾Ý   
+}  
